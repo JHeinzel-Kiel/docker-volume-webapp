@@ -1,0 +1,186 @@
+body {
+    background-color: rgb(255, 255, 255);  
+    color:rgb(39, 18, 7);  
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    min-height: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#main {
+    position: absolute; 
+    top: 0;
+    max-height: 100%;
+}
+
+h3, h4 {
+    color:rgb(73, 59, 42);
+}
+
+
+p.linebreaks {
+    white-space: pre-line;
+}
+
+.main-parent {
+    width: 100%;
+    height: 94vh;
+}
+
+.main-area {
+    width: inherit;
+    height: inherit;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+.custom-content {
+    max-height: calc(94vh);
+    position: absolute;
+}
+
+.custom-row-content {
+    width: 100%;
+}
+
+.custom-row {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+.custom-container {
+    width: fit-content;
+}
+
+.custom-main-div {
+    min-height: inherit;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1050;
+}
+
+.custom-menu-intern {
+    background-color: #433E54;
+}
+
+.custom-topnav {
+    min-height: 6vh;
+    z-index: 1055;
+    box-shadow: 0px 0px 5px 3px #443358aa;
+}
+
+nav.custom-topnav {
+    width: 100%;
+}
+
+.custom-footer {
+    height: 6vh;
+    min-height: 4rem;
+}
+
+.custom-footer-div-fix {
+    width: 100%;
+    z-index: 1055;
+    box-shadow: 0px 0px 5px 3px #443358aa;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+a.title {
+    /*font-family: 'The Nautigal';*/
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+a:link {
+    color:rgb(213 196 169 / 79%);
+}
+
+a:visited {
+    color:rgb(213 196 169 / 79%);
+}
+
+a:hover {
+    color:rgba(156, 133, 97, 0.79);
+}
+
+.navs {
+    background-color: rgb(69 64 84); 
+    color:rgb(213 196 169 / 79%);  
+}
+
+.nav-link:hover {
+    color:rgb(233, 230, 224);
+}
+
+.custom-nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+span.custom-toggler-span {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.custom-toggler-button {
+    background-color: rgb(47, 43, 61); 
+    border-color: rgba(255, 255, 255, 0.37);
+}
+
+.blue-gradient {
+    background: linear-gradient(40deg, rgb(213 196 169 / 79%),rgb(213 196 169 / 79%)) !important;
+    color: #433E54;
+}
+
+.dark-bg-cp {
+    background-color: rgb(15, 15, 17);
+    color: azure;
+}
+
+.normal-content-color {
+    color: rgb(86, 122, 158);
+}
+
+.normal-p-color {
+    color: rgb(15, 31, 46); 
+}
+
+.normal-p {
+    font-size: 1.15rem;
+}
+
+.normal-h {
+    font-size: 1.4rem;
+}
+
+div.custom-container-shadow{
+    box-shadow: 0px 0px 5px 3px #4433588a;
+}
+
+div.custom-container-highlight {
+    border: 3px solid rgb(233, 139, 46);
+    box-shadow: 0px 0px 6px 4px rgb(230, 142, 55);
+}
+
+.custom-table-highlight {
+    background-color: rgb(239, 232, 220);
+    border: 2px solid rgb(233, 139, 46);
+}
+
+.custom-button-style {
+    background: rgba(213, 196, 169, 0.937);
+    box-shadow: 0px 0px 4px 1px #44335883;
+    color: #433E54 !important;
+    font-weight: 800;
+}
+
+.custom-button-style:hover {
+    background: rgba(231, 227, 220, 0.985);
+    box-shadow: 0px 0px 5px 3px #443358a5;
+}
